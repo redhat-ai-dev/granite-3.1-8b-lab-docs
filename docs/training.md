@@ -1,0 +1,3 @@
+## Training Information
+
+Our training consists of two major phases: knowledge tuning and skills tuning. There are two steps in knowledge tuning where the first step learns simple knowledge (short samples) and the second step learns complicated knowledge (longer samples). The second step uses replay a replay buffer with data from the first step. Both foundational skills and compositional skills are learned during the skills tuning phases, where a replay buffer of data from the knowledge phase is used. Importantly, we use a set of hyper-parameters for training that are very different from standard small-scale supervised fine-training: larger batch size and carefully optimized learning rate and scheduler.
