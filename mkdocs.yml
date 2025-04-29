@@ -1,0 +1,10 @@
+site_name: 'Documentation'
+
+nav:
+  - Model Information: index.md
+  - Training Information: training.md
+  - Usage Consideration: usage.md
+  - License: license.md
+
+plugins:
+  - techdocs-core
