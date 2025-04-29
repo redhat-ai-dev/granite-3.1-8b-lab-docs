@@ -4,6 +4,7 @@ nav:
   - Model Information: index.md
   - Training Information: training.md
   - Usage Consideration: usage.md
+  - Usage Examples: examples.md
   - License: license.md
 
 plugins:
